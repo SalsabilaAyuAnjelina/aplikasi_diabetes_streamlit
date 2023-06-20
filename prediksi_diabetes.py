@@ -31,7 +31,7 @@ def main():
 
 
     if st.button('Cek Kesehatan'): # kalau prediksi ditekan
-        st.subheader('')
+        
         st.subheader('')
         for i in range(len(data)): #  perulangan for akan dilakukan sebanyak jumlah data dalam dataset.
             for j in ['Glucose', 'Insulin', 'BMI', 'Age']: # data glucose, dll akan dimasukkan kedalam data_arr
